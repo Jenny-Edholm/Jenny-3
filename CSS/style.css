@@ -21,7 +21,7 @@
         font-size: 300%;
         font-weight: 100;
         color: #FFF;
-        letter-spacing: 0.1em;
+        letter-spacing: 5px;
         word-spacing: 4px;
         line-height: 1.1;
     }
@@ -29,7 +29,7 @@
     h2 {
         font-size: 250%;
         font-weight: 100;
-        letter-spacing: 0.1em;
+        letter-spacing: 5px;
         word-spacing: 4px;
         text-transform: uppercase;
         margin-bottom: 20px;
@@ -38,6 +38,7 @@
     h3 {
         font-size: 200%;
         font-weight: 400;
+        letter-spacing: 3px;
     }
     
     h4 {
@@ -129,26 +130,26 @@
     .separator {
         width: 60%;
         margin: 20px auto;
-        border-top: 2px dotted #10334A;
     }
     
     .background {
         display: flex;
         flex-wrap: wrap;
-        position: relative;
+        width: 100%;
     }
     
     .employment-education {
         display: flex;
         flex-wrap: wrap;
-        position: relative;
+        width: 92%;
+        margin: 0 auto;
     }
     
     .former-employers {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
-        padding: 100px 0px 0px 200px;
+        padding: 100px 0px 0px 100px;
         width: 50%;
     }
     
@@ -185,13 +186,21 @@
     }
     
     .certificates {
-        padding: 10px 0px 0px 200px;
-        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px 0px 40px 0px;
+        width: 92%;
+        margin: 0 100px;
         height: fit-content;
+    }
+    
+    .certificates h3 {
+        width: 92%;
     }
     
     .certificate-item-1,
     .certificate-item-2 {
+        justify-content: space-between;
         width: 50%;
         height: fit-content;
         margin-top: 20px;
@@ -205,22 +214,29 @@
         border-radius: 50%;
     }
     
-    .awards-headline {
-        padding-left: 200px;
-        padding-top: 50px;
-    }
-    
     .awards {
-        padding: 10px 0px 0px 200px;
-        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px 0px 20px 0px;
+        width: 92%;
+        margin: 0 100px;
     }
     
     .award-item-1,
     .award-item-2 {
+        justify-content: space-between;
         width: 50%;
         margin-top: 20px;
         padding-right: 60px;
+    }
+    
+    .award-item-1 p,
+    .award-item-2 p {
         text-align: justify;
+    }
+    
+    .awards h3 {
+        width: 92%;
     }
     
     .award-item-1 img,
