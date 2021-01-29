@@ -7,23 +7,33 @@
     <link rel="stylesheet" type="text/css" href="CSS/style.css">
     <link rel="shortcut icon" href="content/icons/favicon.ico">
     <title>Jenny Edholm - UX-designer</title>
+    <script src="javascript.js"></script>
 </head>
 
 <body>
     <header>
-        <div class="header-text-box">
-            <h1>Making companies grow <br>with better user experiences.</h1>
-            <p>UX-designer with a background in sales and<br> marketing at international tech companies. </p>
-        </div>
 
-        <div>
-            <nav class="navigation">
+        <div class="topbar">
+            <div class="jenny-logo">
+                <a href="index.html">
+                    <img src="content/logos/JennyEdholmLogoSVG.svg" alt="Logo"></a>
+
+            </div>
+            <nav>
                 <div class="nav-item"><a href="#about-me-link">About me</a></div>
                 <div class="nav-item">
                     <a href="#portfolio-link">Portfolio</a></div>
                 <div class="nav-item"><a href="#contact-me-link">Contact</a></div>
             </nav>
+
         </div>
+
+        <div class="header-text-box">
+            <h1>Making companies grow <br>with better user experiences.</h1>
+            <p>UX-designer with a background in sales and<br> marketing at international tech companies. </p>
+        </div>
+
+
         </div>
 
     </header>
@@ -121,7 +131,7 @@
                 <div class="award-item-1">
                     <img src="content/logos/groupon.png" alt="Udemy logotype">
                     <h4>Groupon Green Awards</h4>
-                    <p>Start with the customer and work backwards - 2015</p>
+                    <strong>with the customer and work backwards - 2015</strong>
                     <p>To start with the customer first means to really think ahead. How will something we do affect the customers, merchants and ourselves? It also means to understand one’s own customer, internal or extarnal, and do what you can to cater
                         to their needs. This person is smart, skilled, easy to get hold of and constantly brings solutions to the table. She’s always friendly and helps out. Never afraid to go the extra mile if it’s the right thing to do.</p>
                 </div>
@@ -129,7 +139,7 @@
                 <div class="award-item-2">
                     <img src="content/logos/groupon.png" alt="Udemy logotype">
                     <h4>Groupon Green Awards</h4>
-                    <p>Great people makes great companies - 2014</p>
+                    <strong> Great people makes great companies - 2014</strong>
                     <p>For a job at a constantly high level and an attitude far beyond the ordinary. To never settle for anything but effective perfection and to personalize win-win-win in everything she does. </p>
                 </div>
             </div>
@@ -213,6 +223,57 @@
                 </div>
 
             </div>
+        </div>
+
+        <div class="contact-form">
+            <h3>Prefer to be contacted?</h3>
+            <p>Please fill in your contact details and a short message and I'll be in contact soon!</p>
+            <form onsubmit=formSubmit(event)>
+                <div>
+                    <label for="formName">Name</label>
+                    <br>
+                    <input type="text" id="formName">
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="formEmail">Email address</label>
+                    <br>
+                    <input type="email" id="formEmail">
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="formPhone">Phone number</label>
+                    <br>
+                    <input type="number" id="formPhone">
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="formMessage">Message</label>
+                    <br>
+                    <textarea id="formMessage" cols="30" rows="5"></textarea>
+                </div>
+
+                <br>
+
+                <div>
+
+                    <input type="checkbox" id="formConsent">
+                    <label for="formConsent">I consent to my contact details being saved.</label>
+
+                </div>
+
+                <input type="submit" value="Send">
+
+            </form>
+
+            <h4 id=thankYou></h4>
+
         </div>
 
         <div class="to-the-top">
