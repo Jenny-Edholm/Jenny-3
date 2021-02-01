@@ -9,10 +9,6 @@
     box-sizing: border-box;
 }
 
-div {
-    border: 3px solid red;
-}
-
 html {
     background-color: #fff;
     color: #555;
@@ -478,7 +474,7 @@ footer {
         font-size: 80%;
     }
     .projects-copy h4 {
-        font-size: 200%;
+        font-size: 50%;
         width: 85%;
         transform: none;
         left: 15%;
@@ -489,7 +485,7 @@ footer {
         left: 10%;
     }
     .header-text-box {
-        width: 90%;
+        width: 88%;
         top: 60%;
     }
     .topbar {
@@ -565,11 +561,6 @@ footer {
     .contact-form {
         margin: 0;
         padding: 0;
-    }
-    .contact-me-container {
-        width: 100%;
-        margin: 0;
-        padding-left: 0;
     }
     .contact-me {
         width: 100%;
