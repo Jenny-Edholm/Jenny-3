@@ -473,7 +473,7 @@
             margin-left: 10px;
         }
         .header-text-box p {
-            font-size: 100%;
+            display: none;
         }
         .projects-copy h4 {
             font-size: 50%;
