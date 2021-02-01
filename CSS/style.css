@@ -495,6 +495,7 @@ footer {
     .topbar {
         position: relative;
         height: 80px;
+        width: 100%;
     }
     .jenny-logo {
         height: 200px;
@@ -510,20 +511,20 @@ footer {
         align-items: center;
         justify-content: center;
         position: absolute;
-        position: fixed;
         top: -60px;
         height: 80px;
         margin-right: 0;
         background-color: #10334a;
+        width: 100%;
     }
     nav:hover {
         top: 0px;
     }
     .nav-item a {
-        font-size: 75%;
+        font-size: 65%;
         font-weight: 200;
         color: #FFF;
-        margin-left: 20px;
+        margin-left: 10px;
         margin-top: 0;
         text-decoration: none;
         text-transform: uppercase;
