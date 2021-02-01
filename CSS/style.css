@@ -310,6 +310,7 @@
         letter-spacing: 1px;
         word-spacing: 1px;
         font-weight: 300;
+        width: 80%;
     }
     
     .projects-copy p {
