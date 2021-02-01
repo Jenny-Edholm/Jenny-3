@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width-device-width, initial-scale-1.0, maximum-scale-1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="CSS/style.css">
     <link rel="shortcut icon" href="content/icons/favicon.ico">
     <title>Jenny Edholm - UX-designer</title>
@@ -51,9 +51,8 @@
 
             <div class="about-me-text">
                 <p>Efficient and data driven “do-er” who never stops being curious. Experience from working in fast paced tech start-ups and e-commerce. I thrive in central positions that interacts with many stake holders simultaneously. Always trying to
-                    lead by example and happily share my mix of commercial and analytical skills to the people around me.</p>
-                <br>
-                <br> Keywords: UX-designer, Requirements, HTML, CSS, Data Analysis, SQL, Product Development Sales Operations, Sales Strategy, Process Development, Account Management
+                    lead by example and happily share my mix of commercial and analytical skills to the people around me.
+                    <br> <br><strong>Keywords:</strong> UX-designer, Requirements, HTML, CSS, Data Analysis, SQL, Product Development Sales Operations, Sales Strategy, Process Development, Account Management</p>
             </div>
         </div>
 
@@ -183,7 +182,7 @@
 
                 <div class="improvements">
 
-                    <div class="improvements-item">
+                    <div class="projects">
                         <img src="content/images/filmstaden70.png" alt="Background image for an improvement project for Filmstaden">
                         <div class="projects-copy">
                             <h4>Filmstaden</h4>
@@ -191,11 +190,11 @@
                         </div>
                     </div>
 
-                    <div class="improvements-item">
+                    <div class="projects">
                         <img src="content/images/green_little_heart80.png" alt="Background image for an improvement project for Green little heart">
                         <div class="projects-copy">
                             <h4>Green Little Heart</h4>
-                            <p>Redesign - User journey - Design guidelines</p>
+                            <p>Redesign - User journey - E-Commerce</p>
                         </div>
                     </div>
                 </div>
@@ -227,48 +226,48 @@
 
         <div class="contact-form">
             <h3>Prefer to be contacted?</h3>
-            <p>Please fill in your contact details and a short message and I'll be in contact soon!</p>
+            <p>Please fill in your contact details and I'll be in contact soon.</p>
             <form onsubmit=formSubmit(event)>
-                <div>
+                <div class="form-name">
                     <label for="formName">Name</label>
                     <br>
                     <input type="text" id="formName">
                 </div>
 
-                <br>
 
-                <div>
+
+                <div class="form-email">
                     <label for="formEmail">Email address</label>
                     <br>
                     <input type="email" id="formEmail">
                 </div>
 
-                <br>
 
-                <div>
+
+                <div class="form-phone">
                     <label for="formPhone">Phone number</label>
                     <br>
                     <input type="number" id="formPhone">
                 </div>
 
-                <br>
 
-                <div>
+
+                <div class="form-message">
                     <label for="formMessage">Message</label>
                     <br>
                     <textarea id="formMessage" cols="30" rows="5"></textarea>
                 </div>
 
-                <br>
 
-                <div>
 
+                <div class="form-consent">
                     <input type="checkbox" id="formConsent">
                     <label for="formConsent">I consent to my contact details being saved.</label>
-
                 </div>
 
-                <input type="submit" value="Send">
+                <div class="button">
+                    <input type="submit" value="Send">
+                </div>
 
             </form>
 
