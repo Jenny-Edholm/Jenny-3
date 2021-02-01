@@ -1,837 +1,835 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-*,
-*:before,
-*:after {
-    box-sizing: border-box;
-}
-
-html {
-    background-color: #fff;
-    color: #555;
-    font-family: 'Poppins', 'Arial', sans-serif;
-    font-size: 20px;
-    font-weight: 300;
-}
-
-h1 {
-    font-size: 300%;
-    font-weight: 100;
-    color: #FFF;
-    letter-spacing: 5px;
-    word-spacing: 4px;
-    line-height: 1.1;
-}
-
-h2 {
-    font-size: 250%;
-    font-weight: 100;
-    letter-spacing: 5px;
-    word-spacing: 4px;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-}
-
-h3 {
-    font-size: 200%;
-    font-weight: 400;
-    letter-spacing: 3px;
-}
-
-h4 {
-    font-size: 150%;
-    font-weight: 400;
-}
-
-header h4 {
-    color: #FFF;
-    margin-top: 5px;
-}
-
-header {
-    background-image: url(midsummer50.png);
-    background-size: cover;
-    background-position: 65%;
-    position: relative;
-    width: 100%;
-    height: 90vh;
-}
-
-.topbar {
-    display: flex;
-    width: 100%;
-    height: 100px;
-}
-
-.jenny-logo img {
-    position: absolute;
-    height: 150px;
-    top: 10px;
-    left: 10px;
-}
-
-nav {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    width: 100%;
-    height: 100px;
-    margin-right: 30px;
-}
-
-.header-text-box {
-    position: absolute;
-    bottom: 10%;
-    left: 6%;
-    width: 75%;
-}
-
-.header-text-box p {
-    color: #93c6e8;
-    letter-spacing: 1px;
-    font-size: 130%;
-    margin-top: 20px;
-}
-
-.nav-item a {
-    font-size: 120%;
-    font-weight: 200;
-    color: #FFF;
-    margin-left: 50px;
-    margin-top: 10px;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-main {
-    text-align: left;
-    margin: 0 auto;
-}
-
-.location {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: fit-content;
-    padding: 20px 0px;
-}
-
-.location img {
-    height: 30px;
-    width: 30px;
-    margin: 5px;
-}
-
-.about-me {
-    margin: 0 auto;
-    padding: 50px 100px 20px 100px;
-}
-
-.about-me h2 {
-    color: #10334a;
-}
-
-.about-me-text {
-    text-align: justify;
-    width: 92%;
-    margin: 0 auto;
-}
-
-.separator {
-    width: 60%;
-    margin: 20px auto;
-}
-
-.background {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-}
-
-.employment-education {
-    display: flex;
-    flex-wrap: wrap;
-    width: 92%;
-    margin: 0 auto;
-}
-
-.former-employers {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    width: 45%;
-    height: fit-content;
-    margin: 20px auto;
-}
-
-.meniga,
-.secret-sales,
-.groupon {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    width: 100%;
-    margin-top: 20px;
-}
-
-.employer-item img {
-    height: 75px;
-    width: 75px;
-    border-radius: 50%;
-}
-
-.education {
-    display: flex;
-    flex-wrap: wrap;
-    width: 45%;
-    height: fit-content;
-    margin: 20px auto;
-}
-
-.education-item {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    width: 100%;
-    margin-top: 20px;
-}
-
-.education-item img {
-    height: 75px;
-    width: 75px;
-    border-radius: 50%;
-}
-
-.certificates {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 10px 0px 40px 0px;
-    width: 92%;
-    margin: 0 100px;
-    height: fit-content;
-}
-
-.certificates h3 {
-    width: 92%;
-}
-
-.certificate-item-1,
-.certificate-item-2 {
-    justify-content: space-between;
-    width: 50%;
-    height: fit-content;
-    margin-top: 20px;
-    padding: 0px;
-}
-
-.certificate-item-1 img,
-.certificate-item-2 img {
-    height: 75px;
-    width: 75px;
-    border-radius: 50%;
-}
-
-.awards {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 10px 0px 20px 0px;
-    width: 92%;
-    margin: 0 100px;
-}
-
-.award-item-1,
-.award-item-2 {
-    justify-content: space-between;
-    width: 50%;
-    margin-top: 20px;
-    padding-right: 60px;
-}
-
-.award-item-1 p,
-.award-item-2 p {
-    text-align: justify;
-}
-
-.awards h3 {
-    width: 92%;
-}
-
-.award-item-1 img,
-.award-item-2 img {
-    height: 75px;
-    width: 75px;
-    border-radius: 50%;
-}
-
-.portfolio {
-    width: 100%;
-    background-color: #103341;
-    color: #FFF;
-    margin: 50px auto;
-    padding: 50px 100px 100px 100px;
-}
-
-.projects-container {
-    width: 100%;
-}
-
-.school-projects,
-.improvements {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 auto;
-}
-
-.projects {
-    display: flex;
-    flex-wrap: wrap;
-    position: relative;
-    width: 45%;
-    margin: 20px auto 80px auto;
-    height: 350px;
-}
-
-.projects img {
-    border-radius: 2%;
-    height: 350px;
-    width: 100%;
-    object-fit: cover;
-}
-
-.projects-copy h4 {
-    position: absolute;
-    top: 25%;
-    left: 50%;
-    transform: translate(-50%, 0);
-    font-size: 250%;
-    letter-spacing: 1px;
-    word-spacing: 1px;
-    font-weight: 300;
-}
-
-.projects-copy p {
-    position: absolute;
-    left: 50%;
-    top: 80%;
-    transform: translate(-50%, 0);
-    width: 80%;
-}
-
-.contact-me-container {
-    width: 100%;
-    margin: 50px auto 0 auto;
-    padding: 50px 100px 100px 100px;
-    align-items: center;
-    justify-content: center;
-}
-
-.contact-me-container h2 {
-    margin-bottom: 30px;
-    letter-spacing: 0.1em;
-}
-
-.contact-me {
-    color: #555;
-    flex-direction: column;
-    left: 25%;
-    width: fit-content;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-}
-
-.email,
-.phone,
-.linkedin {
-    display: flex;
-    padding-bottom: 30px;
-    align-items: center;
-}
-
-.email a,
-.phone a,
-.linkedin a {
-    color: #555;
-    text-decoration: none;
-    align-items: center;
-    width: fit-content;
-    justify-content: center;
-}
-
-.email img,
-.phone img,
-.linkedin img {
-    padding-right: 40px;
-}
-
-.contact-form {
-    margin: 0px auto;
-    justify-content: center;
-    align-items: center;
-    width: fit-content;
-}
-
-form {
-    background-color: #FFF;
-    margin: 0px auto;
-    width: fit-content;
-}
-
-.form-name label,
-.form-email label,
-.form-phone label,
-.form-message label,
-.form.consent label {
-    font-size: 18px;
-}
-
-.form-name input,
-.form-email input,
-.form-phone input,
-.form-message input {
-    height: 30px;
-    width: 250px;
-}
-
-.button input {
-    height: 50px;
-    width: 300px;
-    font-size: 25px;
-    background-color: #10334a;
-    color: #c4c4c4;
-    border-radius: 3%;
-}
-
-.button {
-    margin: 30px auto;
-    justify-self: center;
-}
-
-.to-the-top {
-    text-align: center;
-    font-size: 150%;
-    font-weight: 200;
-    padding: 100px;
-}
-
-.to-the-top a {
-    text-decoration: none;
-    color: #555;
-}
-
-footer {
-    width: 100%;
-    background-color: #103341;
-    color: #FFF;
-    height: 150px;
-    text-align: right;
-    font-style: italic;
-    font-size: 50%;
-    font-weight: 100;
-    padding: 60px 50px;
-}
-
-
-/* Mobile Styles */
-
-@media screen and (max-width: 500px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    *,
+    *:before,
+    *:after {
+        box-sizing: border-box;
+    }
+    
+    html {
+        background-color: #fff;
+        color: #555;
+        font-family: 'Poppins', 'Arial', sans-serif;
+        font-size: 20px;
+        font-weight: 300;
+    }
+    
     h1 {
-        font-size: 180%;
+        font-size: 300%;
         font-weight: 100;
         color: #FFF;
         letter-spacing: 5px;
         word-spacing: 4px;
         line-height: 1.1;
     }
+    
     h2 {
-        font-size: 150%;
+        font-size: 250%;
         font-weight: 100;
         letter-spacing: 5px;
         word-spacing: 4px;
         text-transform: uppercase;
-        margin: 20px 0px 20px 15px;
+        margin-bottom: 20px;
     }
+    
     h3 {
-        font-size: 130%;
+        font-size: 200%;
         font-weight: 400;
         letter-spacing: 3px;
-        margin: 20px 0px 0px 15px;
     }
+    
     h4 {
-        font-size: 100%;
+        font-size: 150%;
         font-weight: 400;
-        margin-left: 10px;
     }
-    h5 {
-        font: 50%;
-        font-weight: 400;
-        margin-left: 10px;
+    
+    header h4 {
+        color: #FFF;
+        margin-top: 5px;
     }
-    p {
-        font-size: 80%;
-        margin-left: 10px;
-    }
-    .header-text-box p {
-        font-size: 100%;
-    }
-    .projects-copy h4 {
-        font-size: 50%;
-        width: 85%;
-        transform: none;
-        left: 15%;
-    }
-    .projects-copy p {
-        width: 90%;
-        transform: none;
-        left: 10%;
-    }
-    .header-text-box {
-        width: 80%;
-        bottom: 5%;
-    }
-    .topbar {
+    
+    header {
+        background-image: url(midsummer50.png);
+        background-size: cover;
+        background-position: 65%;
         position: relative;
-        height: 80px;
         width: 100%;
+        height: 90vh;
     }
-    .jenny-logo {
-        height: 200px;
+    
+    .topbar {
+        display: flex;
+        width: 100%;
+        height: 100px;
     }
+    
     .jenny-logo img {
-        height: 180px;
-        margin: 80px auto;
-        width: 100%;
-        padding: 0;
+        position: absolute;
+        height: 150px;
+        top: 10px;
+        left: 10px;
     }
+    
     nav {
         display: flex;
         align-items: center;
-        justify-content: center;
-        position: absolute;
-        top: -60px;
-        height: 80px;
-        margin-right: 0;
-        background-color: #10334a;
+        justify-content: flex-end;
         width: 100%;
+        height: 100px;
+        margin-right: 30px;
     }
-    nav:hover {
-        top: 0px;
+    
+    .header-text-box {
+        position: absolute;
+        bottom: 10%;
+        left: 6%;
+        width: 75%;
     }
+    
+    .header-text-box p {
+        color: #93c6e8;
+        letter-spacing: 1px;
+        font-size: 130%;
+        margin-top: 20px;
+    }
+    
     .nav-item a {
-        font-size: 65%;
+        font-size: 120%;
         font-weight: 200;
         color: #FFF;
-        margin-left: 10px;
-        margin-top: 0;
+        margin-left: 50px;
+        margin-top: 10px;
         text-decoration: none;
         text-transform: uppercase;
     }
+    
+    main {
+        text-align: left;
+        margin: 0 auto;
+    }
+    
+    .location {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: fit-content;
+        padding: 20px 0px;
+    }
+    
+    .location img {
+        height: 30px;
+        width: 30px;
+        margin: 5px;
+    }
+    
     .about-me {
         margin: 0 auto;
-        padding: 10px 10px;
+        padding: 50px 100px 20px 100px;
     }
+    
+    .about-me h2 {
+        color: #10334a;
+    }
+    
     .about-me-text {
+        text-align: justify;
+        width: 92%;
+        margin: 0 auto;
+    }
+    
+    .separator {
+        width: 60%;
+        margin: 20px auto;
+    }
+    
+    .background {
+        display: flex;
+        flex-wrap: wrap;
         width: 100%;
     }
+    
     .employment-education {
-        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        width: 92%;
+        margin: 0 auto;
     }
-    .former-employers,
-    .education,
-    .certificates,
-    .awards {
-        width: 100%;
-        padding: 0 20px 20px 20px;
-        margin: 0px auto;
+    
+    .former-employers {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 45%;
+        height: fit-content;
+        margin: 20px auto;
     }
-    .employer-item,
+    
+    .meniga,
+    .secret-sales,
+    .groupon {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 20px;
+    }
+    
+    .employer-item img {
+        height: 75px;
+        width: 75px;
+        border-radius: 50%;
+    }
+    
+    .education {
+        display: flex;
+        flex-wrap: wrap;
+        width: 45%;
+        height: fit-content;
+        margin: 20px auto;
+    }
+    
     .education-item {
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 20px;
     }
+    
+    .education-item img {
+        height: 75px;
+        width: 75px;
+        border-radius: 50%;
+    }
+    
+    .certificates {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px 0px 40px 0px;
+        width: 92%;
+        margin: 0 100px;
+        height: fit-content;
+    }
+    
+    .certificates h3 {
+        width: 92%;
+    }
+    
     .certificate-item-1,
-    .certificate-item-2,
+    .certificate-item-2 {
+        justify-content: space-between;
+        width: 50%;
+        height: fit-content;
+        margin-top: 20px;
+        padding: 0px;
+    }
+    
+    .certificate-item-1 img,
+    .certificate-item-2 img {
+        height: 75px;
+        width: 75px;
+        border-radius: 50%;
+    }
+    
+    .awards {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px 0px 20px 0px;
+        width: 92%;
+        margin: 0 100px;
+    }
+    
     .award-item-1,
     .award-item-2 {
-        width: 100%;
-        flex-direction: column;
-        margin: 20px auto;
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-top: 10px;
+        justify-content: space-between;
+        width: 50%;
+        margin-top: 20px;
+        padding-right: 60px;
     }
-    .employer-item img,
-    .education-item img,
-    .certificate-item-1 img,
-    .certificate-item-2 img,
+    
+    .award-item-1 p,
+    .award-item-2 p {
+        text-align: justify;
+    }
+    
+    .awards h3 {
+        width: 92%;
+    }
+    
     .award-item-1 img,
     .award-item-2 img {
-        height: 50px;
-        width: 50px;
-        margin-left: 10px;
-        margin-bottom: 10px;
+        height: 75px;
+        width: 75px;
+        border-radius: 50%;
     }
+    
     .portfolio {
-        margin: 0 auto;
-        padding: 10px 10px;
-    }
-    .projects {
-        width: 90%;
-        margin: 20px auto 20px auto;
-    }
-    .projects img {
         width: 100%;
-    }
-    .projects-copy h4 {
-        font-size: 200%;
-    }
-    .contact-me-container {
-        margin: 0 auto;
-        padding: 10px 10px;
-    }
-    .contact-me {
-        width: 100%;
-        padding-left: 0;
-        font-size: 16px;
-    }
-    .email img,
-    .phone img,
-    .linkedin img {
-        padding-right: 30px;
-        margin-bottom: 10px;
-    }
-    .email,
-    .phone,
-    .linkedin {
-        flex-direction: column;
-    }
-    .form-name,
-    .form-email,
-    .form-phone,
-    .form-message {
-        margin: 0px auto;
-        width: 80%;
-    }
-    .button input {
-        height: 50px;
-        width: 60%;
-        font-size: 25px;
-    }
-    .button {
-        margin: 0px auto;
-        padding-left: 30px;
-    }
-    .form-consent {
-        width: 80%;
-        margin: 0 auto;
-    }
-    footer {
-        height: 100px;
-        font-size: 50%;
-        padding: 20px 10px;
-    }
-}
-
-
-/* Tablet Styles */
-
-@media screen and (min-width: 501px) and (max-width: 960px) {
-    h1 {
-        font-size: 200%;
-        font-weight: 100;
+        background-color: #103341;
         color: #FFF;
-        letter-spacing: 5px;
-        word-spacing: 4px;
-        line-height: 1.1;
+        margin: 50px auto;
+        padding: 50px 100px 100px 100px;
     }
-    h2 {
-        font-size: 150%;
-        font-weight: 100;
-        letter-spacing: 5px;
-        word-spacing: 4px;
-        text-transform: uppercase;
-        margin: 20px 0px 20px 15px;
+    
+    .projects-container {
+        width: 100%;
     }
-    h3 {
-        font-size: 130%;
-        font-weight: 400;
-        letter-spacing: 3px;
-        margin: 20px 0px 0px 15px;
-    }
-    h4 {
-        font-size: 100%;
-        font-weight: 400;
-        margin-left: 10px;
-    }
-    h5 {
-        font: 50%;
-        font-weight: 400;
-        margin-left: 10px;
-    }
-    p {
-        font-size: 80%;
-        margin-left: 10px;
-    }
-    .header-text-box p {
-        font-size: 120%;
-    }
-    .projects-copy h4 {
-        font-size: 50%;
-        width: 85%;
-        transform: none;
-        left: 15%;
-    }
-    .projects-copy p {
-        width: 90%;
-        transform: none;
-        left: 10%;
-    }
-    .header-text-box {
-        width: 90%;
-        bottom: 10%;
-    }
-    .about-me {
+    
+    .school-projects,
+    .improvements {
+        display: flex;
+        flex-wrap: wrap;
         margin: 0 auto;
-        padding: 10px 10px;
     }
-    .about-me-text {
-        width: 100%;
-    }
-    .employment-education {
-        width: 100%;
-    }
-    .former-employers,
-    .education,
-    .certificates,
-    .awards {
-        width: 100%;
-        padding: 0 20px 20px 20px;
-        margin: 0px auto;
-    }
-    .employer-item,
-    .education-item {
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-top: 10px;
-    }
-    .certificate-item-1,
-    .certificate-item-2,
-    .award-item-1,
-    .award-item-2 {
-        width: 100%;
-        flex-direction: column;
-        margin: 20px auto;
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-top: 10px;
-    }
-    .employer-item img,
-    .education-item img,
-    .certificate-item-1 img,
-    .certificate-item-2 img,
-    .award-item-1 img,
-    .award-item-2 img {
-        height: 50px;
-        width: 50px;
-        margin-left: 10px;
-        margin-bottom: 10px;
-    }
-    .portfolio {
-        margin: 0 auto;
-        padding: 10px 10px;
-    }
+    
     .projects {
-        width: 90%;
-        margin: 20px auto 20px auto;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        width: 45%;
+        margin: 20px auto 80px auto;
+        height: 350px;
     }
+    
     .projects img {
+        border-radius: 2%;
+        height: 350px;
         width: 100%;
+        object-fit: cover;
     }
+    
     .projects-copy h4 {
-        font-size: 200%;
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, 0);
+        font-size: 250%;
+        letter-spacing: 1px;
+        word-spacing: 1px;
+        font-weight: 300;
     }
+    
+    .projects-copy p {
+        position: absolute;
+        left: 50%;
+        top: 80%;
+        transform: translate(-50%, 0);
+        width: 80%;
+    }
+    
     .contact-me-container {
-        margin: 0 auto;
-        padding: 10px 10px;
-    }
-    .contact-me {
         width: 100%;
-        padding-left: 0;
-        font-size: 16px;
+        margin: 50px auto 0 auto;
+        padding: 50px 100px 100px 100px;
+        align-items: center;
+        justify-content: center;
     }
-    .email img,
-    .phone img,
-    .linkedin img {
-        padding-right: 30px;
-        margin-bottom: 10px;
+    
+    .contact-me-container h2 {
+        margin-bottom: 30px;
+        letter-spacing: 0.1em;
     }
+    
+    .contact-me {
+        color: #555;
+        flex-direction: column;
+        left: 25%;
+        width: fit-content;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    
     .email,
     .phone,
     .linkedin {
-        flex-direction: column;
+        display: flex;
+        padding-bottom: 30px;
+        align-items: center;
     }
-    .form-name,
-    .form-email,
-    .form-phone,
-    .form-message {
+    
+    .email a,
+    .phone a,
+    .linkedin a {
+        color: #555;
+        text-decoration: none;
+        align-items: center;
+        width: fit-content;
+        justify-content: center;
+    }
+    
+    .email img,
+    .phone img,
+    .linkedin img {
+        padding-right: 40px;
+    }
+    
+    .contact-form {
         margin: 0px auto;
-        width: 80%;
+        justify-content: center;
+        align-items: center;
+        width: fit-content;
     }
+    
+    form {
+        background-color: #FFF;
+        margin: 0px auto;
+        width: fit-content;
+    }
+    
+    .form-name label,
+    .form-email label,
+    .form-phone label,
+    .form-message label,
+    .form.consent label {
+        font-size: 18px;
+    }
+    
+    .form-name input,
+    .form-email input,
+    .form-phone input,
+    .form-message input {
+        height: 30px;
+        width: 250px;
+    }
+    
     .button input {
         height: 50px;
-        width: 60%;
+        width: 300px;
         font-size: 25px;
+        background-color: #10334a;
+        color: #c4c4c4;
+        border-radius: 3%;
     }
+    
     .button {
-        margin: 0px auto;
-        padding-left: 30px;
+        margin: 30px auto;
+        justify-self: center;
     }
-    .form-consent {
-        width: 80%;
-        margin: 0 auto;
+    
+    .to-the-top {
+        text-align: center;
+        font-size: 150%;
+        font-weight: 200;
+        padding: 100px;
     }
+    
+    .to-the-top a {
+        text-decoration: none;
+        color: #555;
+    }
+    
     footer {
-        height: 100px;
+        width: 100%;
+        background-color: #103341;
+        color: #FFF;
+        height: 150px;
+        text-align: right;
+        font-style: italic;
         font-size: 50%;
-        padding: 20px 10px;
+        font-weight: 100;
+        padding: 60px 50px;
     }
-}
-
-
-/* Desktop Styles */
-
-@media screen and (min-width: 961px) and (max-width: 1200px) {
-    .header-text-box {
-        bottom: 10%;
-        width: 80%;
+    /* Mobile Styles */
+    
+    @media screen and (max-width: 500px) {
+        h1 {
+            font-size: 180%;
+            font-weight: 100;
+            color: #FFF;
+            letter-spacing: 5px;
+            word-spacing: 4px;
+            line-height: 1.1;
+        }
+        h2 {
+            font-size: 150%;
+            font-weight: 100;
+            letter-spacing: 5px;
+            word-spacing: 4px;
+            text-transform: uppercase;
+            margin: 20px 0px 20px 15px;
+        }
+        h3 {
+            font-size: 130%;
+            font-weight: 400;
+            letter-spacing: 3px;
+            margin: 20px 0px 0px 15px;
+        }
+        h4 {
+            font-size: 100%;
+            font-weight: 400;
+            margin-left: 10px;
+        }
+        h5 {
+            font: 50%;
+            font-weight: 400;
+            margin-left: 10px;
+        }
+        p {
+            font-size: 80%;
+            margin-left: 10px;
+        }
+        .header-text-box p {
+            font-size: 100%;
+        }
+        .projects-copy h4 {
+            font-size: 50%;
+            width: 85%;
+            transform: none;
+            left: 15%;
+        }
+        .projects-copy p {
+            width: 90%;
+            transform: none;
+            left: 10%;
+        }
+        .header-text-box {
+            width: 80%;
+            bottom: 5%;
+        }
+        .topbar {
+            position: relative;
+            height: 80px;
+            width: 100%;
+        }
+        .jenny-logo {
+            height: 200px;
+        }
+        .jenny-logo img {
+            height: 180px;
+            margin: 80px auto;
+            width: 100%;
+            padding: 0;
+        }
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            top: -60px;
+            height: 80px;
+            margin-right: 0;
+            background-color: #10334a;
+            width: 100%;
+        }
+        nav:hover {
+            top: 0px;
+        }
+        .nav-item a {
+            font-size: 65%;
+            font-weight: 200;
+            color: #FFF;
+            margin-left: 10px;
+            margin-top: 0;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        .about-me {
+            margin: 0 auto;
+            padding: 10px 10px;
+        }
+        .about-me-text {
+            width: 100%;
+        }
+        .employment-education {
+            width: 100%;
+        }
+        .former-employers,
+        .education,
+        .certificates,
+        .awards {
+            width: 100%;
+            padding: 0 20px 20px 20px;
+            margin: 0px auto;
+        }
+        .employer-item,
+        .education-item {
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 10px;
+        }
+        .certificate-item-1,
+        .certificate-item-2,
+        .award-item-1,
+        .award-item-2 {
+            width: 100%;
+            flex-direction: column;
+            margin: 20px auto;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 10px;
+        }
+        .employer-item img,
+        .education-item img,
+        .certificate-item-1 img,
+        .certificate-item-2 img,
+        .award-item-1 img,
+        .award-item-2 img {
+            height: 50px;
+            width: 50px;
+            margin-left: 10px;
+            margin-bottom: 10px;
+        }
+        .portfolio {
+            margin: 0 auto;
+            padding: 10px 10px;
+        }
+        .projects {
+            width: 90%;
+            margin: 20px auto 20px auto;
+        }
+        .projects img {
+            width: 100%;
+        }
+        .projects-copy h4 {
+            font-size: 200%;
+        }
+        .contact-me-container {
+            margin: 0 auto;
+            padding: 10px 10px;
+        }
+        .contact-me {
+            width: 100%;
+            padding-left: 0;
+            font-size: 16px;
+        }
+        .email img,
+        .phone img,
+        .linkedin img {
+            padding-right: 30px;
+            margin-bottom: 10px;
+        }
+        .email,
+        .phone,
+        .linkedin {
+            flex-direction: column;
+        }
+        .form-name,
+        .form-email,
+        .form-phone,
+        .form-message {
+            margin: 0px auto;
+            width: 80%;
+        }
+        .button input {
+            height: 50px;
+            width: 60%;
+            font-size: 25px;
+        }
+        .button {
+            margin: 0px auto;
+            padding-left: 30px;
+        }
+        .form-consent {
+            width: 80%;
+            margin: 0 auto;
+        }
+        footer {
+            height: 100px;
+            font-size: 50%;
+            padding: 20px 10px;
+        }
     }
-    h1 {
-        font-size: 250%;
+    /* Tablet Styles */
+    
+    @media screen and (min-width: 501px) and (max-width: 960px) {
+        h1 {
+            font-size: 200%;
+            font-weight: 100;
+            color: #FFF;
+            letter-spacing: 5px;
+            word-spacing: 4px;
+            line-height: 1.1;
+        }
+        h2 {
+            font-size: 150%;
+            font-weight: 100;
+            letter-spacing: 5px;
+            word-spacing: 4px;
+            text-transform: uppercase;
+            margin: 20px 0px 20px 15px;
+        }
+        h3 {
+            font-size: 130%;
+            font-weight: 400;
+            letter-spacing: 3px;
+            margin: 20px 0px 0px 15px;
+        }
+        h4 {
+            font-size: 100%;
+            font-weight: 400;
+            margin-left: 10px;
+        }
+        h5 {
+            font: 50%;
+            font-weight: 400;
+            margin-left: 10px;
+        }
+        p {
+            font-size: 80%;
+            margin-left: 10px;
+        }
+        .header-text-box p {
+            font-size: 120%;
+        }
+        .projects-copy h4 {
+            font-size: 50%;
+            width: 85%;
+            transform: none;
+            left: 15%;
+        }
+        .projects-copy p {
+            width: 90%;
+            transform: none;
+            left: 10%;
+        }
+        .header-text-box {
+            width: 90%;
+            bottom: 10%;
+        }
+        .about-me {
+            margin: 0 auto;
+            padding: 10px 10px;
+        }
+        .about-me-text {
+            width: 100%;
+        }
+        .employment-education {
+            width: 100%;
+        }
+        .former-employers,
+        .education,
+        .certificates,
+        .awards {
+            width: 100%;
+            padding: 0 20px 20px 20px;
+            margin: 0px auto;
+        }
+        .employer-item,
+        .education-item {
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 10px;
+        }
+        .certificate-item-1,
+        .certificate-item-2,
+        .award-item-1,
+        .award-item-2 {
+            width: 100%;
+            flex-direction: column;
+            margin: 20px auto;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 10px;
+        }
+        .employer-item img,
+        .education-item img,
+        .certificate-item-1 img,
+        .certificate-item-2 img,
+        .award-item-1 img,
+        .award-item-2 img {
+            height: 50px;
+            width: 50px;
+            margin-left: 10px;
+            margin-bottom: 10px;
+        }
+        .portfolio {
+            margin: 0 auto;
+            padding: 10px 10px;
+        }
+        .projects {
+            width: 90%;
+            margin: 20px auto 20px auto;
+        }
+        .projects img {
+            width: 100%;
+        }
+        .projects-copy h4 {
+            font-size: 200%;
+        }
+        .contact-me-container {
+            margin: 0 auto;
+            padding: 10px 10px;
+        }
+        .contact-me {
+            width: 100%;
+            padding-left: 0;
+            font-size: 16px;
+        }
+        .email img,
+        .phone img,
+        .linkedin img {
+            padding-right: 30px;
+            margin-bottom: 10px;
+        }
+        .email,
+        .phone,
+        .linkedin {
+            flex-direction: column;
+        }
+        .form-name,
+        .form-email,
+        .form-phone,
+        .form-message {
+            margin: 0px auto;
+            width: 80%;
+        }
+        .button input {
+            height: 50px;
+            width: 60%;
+            font-size: 25px;
+        }
+        .button {
+            margin: 0px auto;
+            padding-left: 30px;
+        }
+        .form-consent {
+            width: 80%;
+            margin: 0 auto;
+        }
+        footer {
+            height: 100px;
+            font-size: 50%;
+            padding: 20px 10px;
+        }
     }
-    .header-text-box p {
-        font-size: 100%;
+    /* Desktop small */
+    
+    @media screen and (min-width: 961px) and (max-width: 1200px) {
+        .header-text-box {
+            bottom: 10%;
+            width: 80%;
+        }
+        h1 {
+            font-size: 250%;
+        }
+        .header-text-box p {
+            font-size: 100%;
+        }
+        .mobile-menu {
+            display: none;
+        }
     }
-    .mobile-menu {
-        display: none;
+    /* Desktop large */
+    
+    @media (min-width: 1200px) {
+        main {
+            max-width: 2000px;
+        }
+        .header-text-box {
+            bottom: 10%;
+            width: 70%;
+        }
+        h1 {
+            font-size: 250%;
+        }
+        .header-text-box p {
+            font-size: 100%;
+        }
+        .mobile-menu {
+            display: none;
+        }
     }
-}
-
-@media (min-width: 1200px) {
-    .header-text-box {
-        bottom: 10%;
-        width: 70%;
-    }
-    h1 {
-        font-size: 250%;
-    }
-    .header-text-box p {
-        font-size: 100%;
-    }
-    .mobile-menu {
-        display: none;
-    }
-}
